@@ -683,9 +683,13 @@ dd a {
 
 .social-network {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 6rem;
+  margin-top: 1rem;
+}
+
+.wrapper-contacts{
+  margin-top: 5rem;
 }
 
 .social__type {
@@ -732,7 +736,7 @@ dd a {
 }
 
 .l-main {
-  margin: 5% 0;
+  margin: 2% 0;
   max-width: 1024px;
 }
 
@@ -1108,7 +1112,7 @@ input:checked + .slider:before {
 
 @media (min-width: 1024px) {
   .l-wrapper {
-    width: 70%;
+    width: 80%;
   }
 
   .form {
@@ -1166,7 +1170,7 @@ input:checked + .slider:before {
     display: inline-block;
     margin-left: 0;
     margin-bottom: 0.35rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.05;
     letter-spacing: 0.2rem;
   }
@@ -1186,7 +1190,7 @@ input:checked + .slider:before {
 
 @media (min-width: 514px) {
   .l-wrapper {
-    margin: 2.5rem auto;
+    margin: 1rem auto;
   }
 
   .sunny{
