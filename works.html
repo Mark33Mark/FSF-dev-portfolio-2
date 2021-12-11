@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mark Watson | Full Stack Developer | Sydney Australia </title>
+    
+    <!--- basic page needs and meta to boost SEO
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Mark Watson | Watsonised | developer</title>
+    <meta name="description" content="Mark Watson - developer and creator in the digital realm - web and devices" />  
+    <meta name="author" content="Mark Watson" />
+    <meta name="KEYWORDS" content="front end web developer, front-end web developer, full stack developer, 
+                                    social media, graphic design, analysis, database, 
+                                    e-commerce, website, web design, web designer, grahic design  
+                                    ui designer, ux designer, ui, ux, 
+                                    curriculum vitae web developer, resume web developer" />
+
+    <!-- Open Graph data
+    ================================================== -->
+    <meta property="og:title" content="Mark Watson" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.watsonised.com/content/SVG_MarkWatson.svg" />
+    <meta property="og:image:width" content="150" />
+    <meta property="og:image:height" content="150" />
+    <meta property="og:site_name" content="Mark Watson web developer"/>
+    <meta property="og:description" content="Mark Watson is a creative and talented computer programmer and web developer." />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@400;700&family=Sarabun:wght@700&display=swap" 
+          rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.ico?ver=1.0" type="image/x-icon" />
+
+    <!-- fonts
+    ================================================== -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@400;700&family=Sarabun:wght@700&display=swap" 
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet" />
+
+    <!-- CSS
+    ================================================== -->  
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css?ver=1.3" />
+  </head>
+
+<body class="l-body">
+  <div class="l-wrapper">
+    <header class="site-header works-header">
+      <a id = "watson-logo" class="logo" href="doc/resume_MarkWatson.pdf" target="_blank"><img src="img/Logo.svg" /></a>
+        
+      <div class="tooltip">
+        <span id = "tooltip-label" class="tooltiptext">Click on the logo for my resume. <span id="close-me" class = "icon-cross"></span></span>
+      </div>
+
+      <nav class="site-nav">
+        <a class="site-nav__link" href="./index.html">About</a>
+        <a class="site-nav__link" href="./works.html">Works</a>
+        <a class="site-nav__link" href="./contact.html">Contact</a>
+
+        <span class="sunny icon-sun"></span>
+        <label class="switch" id="theme-control">
+          <input id="slider-position" type="checkbox" onclick="themeOff();">
+          <span class="slider round"></span>
+        </label>
+        <span class="darkside icon-moon"></span>
+
+      </nav>
+    </header>
+    <div id="quote-me"></div>
+
+    <main role="main" class="l-main page">
+
+      <h1 class="page__title">Selected Work</h1>
+      <p>Clicking a card below will reveal more information about the project.  <br /><br />
+        <a href="contact.html"><strong>Contact me</strong></a> to request more detail on these or my other projects.
+      </p>
+
+        <ul class = "project-board">
+          <li class="project-card recipe">
+            <img src="./img/lettuce_eat.jpg" width="200">
+            <p class = "picture-card"><img class = "recipe-icon" src="./img/lettuce.png" height="30" width="30">.eat</p>
+          </li>
+      
+          <li class="project-card weather"><img src="./img/weather_dash.jpg" width="200"/>
+            <p class = "picture-card">weather dash</p>
+          </li>
+      
+          <li class="project-card quiz">
+            <img src="./img/code_quiz.jpg" width="200"/>
+            <p class = "picture-card">code quiz</p>
+          </li>
+      
+          <li class="project-card workday">
+            <img src="./img/workday_scheduler.jpg" width="200"/>
+            <p class = "picture-card">workday</p>
+          </li>  
+          <li class="project-card quoted">
+            <img src="./img/quoted_landing.jpg" width="200"/>
+            <p class = "picture-card">quot<span style="font-size: 1.25rem;">3</span>d</p>
+          </li>  
+          <li class="project-card flicked">
+            <img src="./img/flicked_landing.jpg" width="200"/>
+            <p class = "picture-card">flick<span style="font-size: 1.25rem;">3</span>d</p>
+          </li>   
+        </ul>
+
+      <!-- == Card Content ================================================================================================== -->
+
+      <div class="page__content"> 
+
+        <article id="lettuce-eat" class="work">
+          <header class="work__header">
+            <h2 id="recipe-title" class="work__title">lettuce.eat</h2>  
+            <ul class="tags-list">  
+              <li class="tag">agile-teams</li>
+              <li class="tag">git-branching</li>
+              <li class="tag">css</li>
+              <li class="tag">html</li>
+              <li class="tag">javascript</li>
+              <li class="tag">fetch-api</li>
+              <li class="tag">w3-css-framework</li>
+            </ul>  
+          </header>
+          <div class="work__content">
+            <a class = "gallery-links" href="https://github.com/Mark33Mark/recipe-generator" target = "_blank">
+              <i id= "recipe-github" class = "gallery-icon icon-SVG_github_repo"></i>
+            </a>
+            <span><a class = "gallery-links" href="https://eat.watsonised.com/" target = "_blank">
+                <i id= "recipe-webpage" class = "gallery-icon icon-SVG_myWebpage"></i>
+              </a>
+            </span>
+            <div class = "helpful-tip"></div>
+            <p> Developed as part of a team where we adopted agile team processes.  Initially we needed to agree an application
+                concept that used 2 api's to return data for the application.
+            </p>
+            <p>We agreed to develop a minimalist recipe application that finds recipes based on 1 key ingredient
+              the user wants in their dish.
+            </p>
+            <p>What I did:</p>
+            <ul>
+              <li>I was the project manager and helped with assigning tasks, organising catch ups / scrum meetings.</li>
+              <li>Prepared the initial code base for the team.</li>
+              <li>Did all the JavaScript for the project.</li>
+              <li>Found and implemented the 2 api's - spoonacular and uselessfacts.</li>
+              <li>Found a Javascript plugin and I implemented to provide users with a function to generate a shopping list automatically on their device.</li>
+            </ul>            
+          </div>     
+          <footer class="work__footer"></footer>
+        </article>
+
+        <article id="weather-dashboard" class="work">
+          <header class="work__header">
+            <h2 id="weather-title" class="work__title">weather dashboard</h2>  
+            <ul class="tags-list">  
+              <li class="tag">javaScript</li>
+              <li class="tag">fetch-api</li>
+              <li class="tag">html</li>
+              <li class="tag">css</li>
+              <li class="tag">w3-css-framework</li>
+            </ul>  
+          </header>
+          <div class="work__content">
+            <a class = "gallery-links" href="https://github.com/Mark33Mark/weather-dashboard" target = "_blank">
+              <i id= "weather-github" class = "gallery-icon icon-SVG_github_repo"></i>
+            </a>
+            <span>
+              <a class = "gallery-links" href="https://sun.watsonised.com/" target = "_blank">
+                <i id= "weather-webpage" class = "gallery-icon icon-SVG_myWebpage"></i>
+              </a>
+            </span>
+            <div class = "helpful-tip"></div>
+            <p> A weather dashboard that uses the OpenWeather API to allow user's to 
+                search cities around the world.  Built from concept. The application was developed to provide 
+                the user with the ability to store the searched cities in their browser's local storage.  Included UI/UX 
+                design initiatives like having wind speed, UV rating and an icons all coded in JavaScript to use colours
+                and pictures for convenient identification of weather conditions.
+            </p>
+            <p> In addition to the current day's weather, a 7 day forecast was also provided, including icons to quickly
+                know the forecast weather condition for the coming days.
+            </p>
+            <p>What I did:</p>
+            <ul>
+              <li>Built the application from concept, including wireframing and pseudo code.</li>
+              <li>Developed the application as responsive to work on all screen sizes.</li>
+              <li>Designed and implemented a banner to show pictures based on the given weather condition for the particular day.</li>
+              <li>Added a feature for users to easily delete their stored cities from the memory without losing 
+                and cities they want to retain in the list.</li>
+            </ul>            
+          </div>     
+          <footer class="work__footer"></footer>
+        </article>
+                
+        <article id="code-quiz" class="work">
+          <header class="work__header">
+            <h2 id="quiz-title" class="work__title">code quiz</h2>  
+            <ul class="tags-list">  
+              <li class="tag">javaScript</li>
+              <li class="tag">css</li>
+              <li class="tag">html</li>
+            </ul>  
+          </header>
+          <div class="work__content">
+            <a class = "gallery-links" href="https://github.com/Mark33Mark/code-quiz_webAPI" target = "_blank">
+              <i id= "quiz-github" class = "gallery-icon icon-SVG_github_repo"></i>
+            </a>
+            <span>
+              <a class = "gallery-links" href="https://quiz.watsonised.com/" target = "_blank">
+                <i id= "quiz-webpage" class = "gallery-icon icon-SVG_myWebpage"></i>
+              </a>
+          </span>
+          <div class = "helpful-tip"></div>
+            <p> Using JavaScript I designed and coded a JavaScript quiz.
+            </p>
+            <p> The quiz is against the clock with time penalties if questions are answered incorrectly.  
+                At the end of the quiz is a high scores board using the browser's local storage.
+            </p>
+            <p>What I did:</p>
+            <ul>
+              <li>Built the application from concept using wireframing and pseudo code to get the broad structure.</li>
+              <li>I implemented a number of user features to make the quiz more fun, such as a countdown that 
+                  loses 10 seconds when a user selects the wrong answer.</li>
+              <li>Added a countdown bar that then turns into a progress bar.</li>
+            </ul>            
+          </div>     
+          <footer class="work__footer"></footer>
+        </article>
+
+        <article id="workday-scheduler" class="work">
+          <header class="work__header">
+            <h2 id="workday-title" class="work__title">workday scheduler</h2>  
+            <ul class="tags-list">  
+              <li class="tag">javaScript</li>
+              <li class="tag">css</li>
+              <li class="tag">html</li>
+            </ul>  
+          </header>
+          <div class="work__content">
+            <a class = "gallery-links" href="https://github.com/Mark33Mark/workday-scheduler" target = "_blank">
+              <i id= "workday-github" class = "gallery-icon icon-SVG_github_repo"></i>
+            </a>
+            <span>
+              <a class = "gallery-links" href="https://task.watsonised.com/" target = "_blank">
+                <i id= "workday-webpage" class = "gallery-icon icon-SVG_myWebpage"></i>
+              </a>
+            </span>
+            <div class = "helpful-tip"></div>
+            <p> A simple application built from scratch that allows user's to select a work day time bandwidth 
+                and set out their tasks for the day.
+            </p>
+            <p> The tasks are stored in local memory for the user to see the next workday when they open the application.</p>
+            <p>What I did:</p>
+            <ul>
+              <li>Built the application from concept.</li>
+              <li>Added user features to improve experience like right clicking to delete entries and using tab key to 
+                  automatically save the entry into local memory.</li>
+            </ul>            
+          </div>     
+          <footer class="work__footer"></footer>
+        </article>
+
+        <article id="quoted-app" class="work">
+          <header class="work__header">
+            <h2 id="quoted-title" class="work__title">Quot<span style="font-size: 2.65rem;">3</span>d</h2>  
+            <ul class="tags-list">  
+              <li class="tag">javaScript</li>
+              <li class="tag">mySQL</li>
+              <li class="tag">mySQL2</li>
+              <li class="tag">clearDB</li>
+              <li class="tag">node.js</li>
+              <li class="tag">express.js</li>
+            </ul>  
+          </header>
+          <div class="work__content">
+            <a class = "gallery-links" href="https://github.com/Mark33Mark/quoted" target = "_blank">
+              <i id= "quot3d-github" class = "gallery-icon icon-SVG_github_repo"></i>
+            </a>
+            <span>
+              <a class = "gallery-links" href="https://quot3d.herokuapp.com/" target = "_blank">
+                <i id= "quoted-webpage" class = "gallery-icon icon-SVG_myWebpage"></i>
+              </a>
+            </span>
+            <div class = "helpful-tip"></div>
+            <p>An application for people wanting some inspiration in their day.</p>
+            <p>This portfolio website is using the same quote database I created for Quot3d.</p>
+            <p>What I did:</p>
+            <ul>
+              <li>Created a JSON of over 1650 quotes and then seeded them into a mySQL database.</li>
+              <li>Wrote all the code, server routes, html, CSS and mySQL2 queries.  Once the application 
+                  was working I deployed it on Heroku using clearDB</li>
+              <li>I've written routes to add and delete quotes under administrative privileges.</li>
+            </ul>            
+          </div>     
+          <footer class="work__footer"></footer>
+        </article>
+
+        <article id="flicked-movies" class="work">
+          <header class="work__header">
+            <h2 id="flicked-title" class="work__title">Flick<span style="font-size: 2.65rem;">3</span>d</h2>  
+            <ul class="tags-list">  
+              <li class="tag">javaScript</li>
+              <li class="tag">mySQL</li>
+              <li class="tag">jawsDB</li>
+              <li class="tag">node.js</li>
+              <li class="tag">sequelize</li>
+              <li class="tag">sessions</li>
+              <li class="tag">express.js</li>
+              <li class="tag">green sock animation platform</li>
+            </ul>  
+          </header>
+          <div class="work__content">
+            <a class = "gallery-links" href="https://github.com/Mark33Mark/movie-scheduler" target = "_blank">
+              <i id= "flicked-github" class = "gallery-icon icon-SVG_github_repo"></i>
+            </a>
+            <span>
+              <a class = "gallery-links" href="https://flick3d.herokuapp.com/" target = "_blank">
+                <i id= "flicked-webpage" class = "gallery-icon icon-SVG_myWebpage"></i>
+              </a>
+            </span>
+            <div class = "helpful-tip"></div>
+            <p>Provides movie release dates for the next 12 months.
+            </p>
+            <p>Users need to have joined to access all the information on the movie and have a dashboard where they can add and remove movies.</p>
+            <p>What I did:</p>
+            <ul>
+              <li>Came up with the concept and wire frame.</li>
+              <li>Found the Green Sock Animation Platform (GSAP) and implemented it into the website to handle the movie posters.</li>
+              <li>Found the TMDB API and Fetch called the 12 months of new release movies, converted the data into JSON and seeded into our database.</li>
+              <li>Designed and developed the mySQL database to achieve the application's objectives.</li>
+              <li>Wrote majority of the code for express, server routes and sequelize queries.</li>
+              <li>Deployed the application to Heroku.</li>
+            </ul>            
+          </div>     
+          <footer class="work__footer"></footer>
+        </article>
+
+      </div>
+
+      <!-- == Contacts footer ================================================================================================== -->
+
+      <section class="social__container">
+        <address class="social-network" itemscope itemtype="http://schema.org/LocalBusiness"> 
+            <a class = "contact-links" href="tel:+61448488884">
+              <div class="contact-icons icon-mobile-phone"></div>
+            </a>
+
+          <a  class = "contact-links" href="mailto:hi@watsonised.com?subject=Sending%20you%20this%20email%20from%20your%20website&body=Hi%20Mark,%20I'm%20emailing%20you%20from%20your%20website." 
+              aria-label="send me an email by selecting this icon">
+            <div class="contact-icons icon-SVG_Envelope"></div>
+          </a>
+              
+          <a class = "contact-links" href="https://www.linkedin.com/in/mark-watsonised/" target="_blank" aria-label="have a look at my LinkedIn message and contact me by selecting this icon">
+            <div class="contact-icons icon-SVG_Linkedin"></div>
+          </a>
+            
+          <a  class = "contact-links" href="https://wa.me/61448488884?text=Hi%20Mark,%0DI%20found%20you%20via%20your%20website%20and%20was%20wondering%0D" 
+              target="_blank" aria-label="send me a whatsapp message by selecting this icon">
+            <div class="contact-icons icon-SVG_Whatsapp"></div>
+          </a>  <!--https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat-->
+
+          <a class = "contact-links" href="https://t.me/watsonised" target="_blank" aria-label="send me a Telegram message by selecting this icon">
+            <div class="contact-icons icon-SVG_PaperPlane"></div>
+          </a>
+
+          <a class = "contact-links" href="https://github.com/Mark33Mark" target="_blank" aria-label="have a look at my Github repository by selecting this icon">
+            <div class="contact-icons icon-SVG_Github"></div>
+          </a> 
+        </address>
+      </section>
+    </main>
+  </div>
+</body>
+
+  <script type="text/javascript" src="./js/quotes_data.js"></script>
+  <script type="text/javascript" src="./js/works.js?ver=1.1"></script>
+  <script type="text/javascript" src="./js/main.js?ver=1.1"></script>
+
+</html>

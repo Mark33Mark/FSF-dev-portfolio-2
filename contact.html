@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mark Watson | Full Stack Developer | Sydney Australia </title>
+
+    <!--- basic page needs and meta to boost SEO
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Mark Watson | Watsonised | developer</title>
+    <meta name="description" content="Mark Watson - developer and creator in the digital realm - web and devices" />  
+    <meta name="author" content="Mark Watson" />
+    <meta name="KEYWORDS" content="front end web developer, front-end web developer, full stack developer, 
+                                    social media, graphic design, analysis, database, 
+                                    e-commerce, website, web design, web designer, grahic design  
+                                    ui designer, ux designer, ui, ux, 
+                                    curriculum vitae web developer, resume web developer" />
+
+    <!-- Open Graph data
+    ================================================== -->
+    <meta property="og:title" content="Mark Watson" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.watsonised.com/content/SVG_MarkWatson.svg" />
+    <meta property="og:image:width" content="150" />
+    <meta property="og:image:height" content="150" />
+    <meta property="og:site_name" content="Mark Watson web developer"/>
+    <meta property="og:description" content="Mark Watson is a creative and talented computer programmer and web developer." />
+
+    <!-- fonts
+    ================================================== -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@400;700&family=Sarabun:wght@700&display=swap" 
+          rel="stylesheet" />
+
+    <link rel="shortcut icon" href="img/favicon.ico?ver=1.0" type="image/x-icon" />
+
+    <!-- CSS
+    ================================================== -->  
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css?ver=1.3" />
+  </head>
+
+<body class="l-body">
+  <div class="l-wrapper">
+    <header class="site-header contact-header">
+      <a id = "watson-logo" class="logo" href="doc/resume_MarkWatson.pdf" target="_blank"><img src="img/Logo.svg" /></a>
+        
+      <div class="tooltip">
+        <span id = "tooltip-label" class="tooltiptext">Click on the logo for my resume. <span id="close-me" class = "icon-cross"></span></span>
+      </div>
+
+      <nav class="site-nav">
+        <a class="site-nav__link" href="./index.html">About</a>
+        <a class="site-nav__link" href="./works.html">Works</a>
+        <a class="site-nav__link" href="./contact.html">Contact</a>
+        
+        <span class="sunny icon-sun"></span>
+        <label class="switch" id="theme-control">
+          <input id="slider-position" type="checkbox" onclick="themeOff();">
+          <span class="slider round"></span>
+        </label>
+        <span class="darkside icon-moon"></span>
+
+      </nav>
+</header>
+
+<div id="quote-me"></div>
+
+  <main role="main" class="l-main page">
+
+    <h1 class="page__title">Get in Touch</h1>
+    
+    <div class="page__content">
+        
+      <h1 id="say-hello">let's communicate...</h1>
+
+      <p>You can send me a message using the form below. 
+        Just remember to provide your name, your email address, a subject and a concise
+        message and I can promptly respond back to you.
+        You can also send me a message using your own email client at: <br />
+        <code>hi@watsonised.com</code>
+      </p><br />
+
+      <div class="">
+
+        <form id="contact-form" class="form" method="post">
+
+          <div class="field">
+            <input type="text" name="sender" id="sender" class="field__input" placeholder="name: your name" value="" minlength="2" required="" />
+          </div>
+          <div class="field">
+            <input type="email" name="sender-email" id="sender-email" class="field__input" placeholder="email: your email address" value="" required="" />
+          </div>
+          <div class="field">
+            <input type="text" name="subject" id="sender-subject" class="field__input" placeholder="subject: reason for emailing me?" value="" required="" />
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" rows="5" cols="33" class="field__input" placeholder="message: what would you like to say?" required=""></textarea>  
+          </div>
+
+          <button type="submit" class="form__submit">Send Message</button>
+
+          <div id="submit-loader">
+            <div class="text-loader">Sending...</div>                             
+            <div class="s-loader">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+      <div id="message-warning"></div> 
+      <div id="message-success">
+        Your message was sent, thank you!<br>
+      </div>
+
+  
+      <!-- == Contacts footer ================================================================================================== -->
+
+      <section class="social__container">
+        <address class="social-network" itemscope itemtype="http://schema.org/LocalBusiness"> 
+            <a class = "contact-links" href="tel:+61448488884">
+              <div class="contact-icons icon-mobile-phone"></div>
+            </a>
+
+          <a  class = "contact-links" href="mailto:hi@watsonised.com?subject=Sending%20you%20this%20email%20from%20your%20website&body=Hi%20Mark,%20I'm%20emailing%20you%20from%20your%20website." 
+              aria-label="send me an email by selecting this icon">
+            <div class="contact-icons icon-SVG_Envelope"></div>
+          </a>
+              
+          <a class = "contact-links" href="https://www.linkedin.com/in/mark-watsonised/" target="_blank" aria-label="have a look at my LinkedIn message and contact me by selecting this icon">
+            <div class="contact-icons icon-SVG_Linkedin"></div>
+          </a>
+            
+          <a  class = "contact-links" href="https://wa.me/61448488884?text=Hi%20Mark,%0DI%20found%20you%20via%20your%20website%20and%20was%20wondering%0D" 
+              target="_blank" aria-label="send me a whatsapp message by selecting this icon">
+            <div class="contact-icons icon-SVG_Whatsapp"></div>
+          </a>  <!--https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat-->
+
+          <a class = "contact-links" href="https://t.me/watsonised" target="_blank" aria-label="send me a Telegram message by selecting this icon">
+            <div class="contact-icons icon-SVG_PaperPlane"></div>
+          </a>
+
+          <a class = "contact-links" href="https://github.com/Mark33Mark" target="_blank" aria-label="have a look at my Github repository by selecting this icon">
+            <div class="contact-icons icon-SVG_Github"></div>
+          </a> 
+        </address>
+      </section>
+
+    </div>
+  </main>
+</body>
+
+  <script type="text/javascript" src="./js/quotes_data.js"></script>
+  <script type="text/javascript" src="./js/main.js?ver=1.1"></script>
+  <script type="text/javascript" src="./js/contact.js"></script>
+
+</html>

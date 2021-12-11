@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Mark Watson | Full Stack Developer | Sydney Australia</title>
+
+    <!--- basic page needs and meta to boost SEO
+    ================================================== -->
+    <meta charset="utf-8">
+		<meta name="description" content="Mark Watson - developer and creator in the digital realm - web and devices" />  
+		<meta name="author" content="Mark Watson" />
+		<meta name="KEYWORDS" content="front end web developer, front-end web developer, full stack developer, 
+                                    social media, graphic design, analysis, database, 
+                                    e-commerce, website, web design, web designer, grahic design  
+                                    ui designer, ux designer, ui, ux, 
+                                    curriculum vitae web developer, resume web developer" />
+
+    <!-- Open Graph data
+    ================================================== -->
+    <meta property="og:title" content="Mark Watson" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.watsonised.com/content/SVG_MarkWatson.svg" />
+    <meta property="og:image:width" content="150" />
+    <meta property="og:image:height" content="150" />
+    <meta property="og:site_name" content="Mark Watson web developer"/>
+    <meta property="og:description" content="Mark Watson is a creative and talented computer programmer and web developer." />
+
+    <!-- fonts
+    ================================================== -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@400;700&family=Sarabun:wght@700&display=swap" 
+          rel="stylesheet" />
+
+    <link rel="shortcut icon" href="img/favicon.ico?ver=1.0" type="image/x-icon" />
+
+    <!-- CSS
+    ================================================== -->  
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css?ver=1.3" />
+
+  </head>
+
+  <!-- A bit of fun - my head is meant to follow the user's mouse - unfortunately doesn't work so well when user is on a mobile device. -->
+  <body class="l-body"  onmousemove="handleMouseMove(event)" onmouseout="clearCoOrdinates()">
+    <div class="l-wrapper">
+      <header class="site-header">
+
+        <a id = "watson-logo" class="logo" href="doc/resume_MarkWatson.pdf" target="_blank"><img src="img/Logo.svg" /></a>
+        
+        <div class="tooltip">
+          <span id = "tooltip-label" class="tooltiptext">Click on the logo for my resume. <span id="close-me" class = "icon-cross"></span></span>
+        </div>
+
+        <nav class="site-nav">
+          <a class="site-nav__link" href="./index.html">About</a>
+          <a class="site-nav__link" href="./works.html">Works</a>
+          <a class="site-nav__link" href="./contact.html">Contact</a>
+
+          <span class="sunny icon-sun"></span>
+          <label class="switch" id="theme-control">
+            <input id="slider-position" type="checkbox" onclick="themeOff();">
+            <span class="slider round"></span>
+          </label>
+          <span class="darkside icon-moon"></span>
+          
+        </nav>
+      </header>
+      
+      <main role="main" class="l-main page">
+    
+        <section class="intro">
+
+          <h1 class="intro__greeting">Hello and welcome,<br /> I&#39;m Mark</h1>
+
+          <div class="mouse-movement" >
+            <div class="perspective-container">
+              <div id ="movable" class="card"><img src = "./img/myPortrait.png"></div>
+            </div>
+          </div>
+
+        </section>
+
+        <div id="quote-me"></div>
+
+        <p> A full stack web developer with a property development and capital transactions background who has worked some of Australia's largest corporations.</p> 
+        <p> I'm based in Sydney, Australia.</p>
+        <p> With a deep understanding of electronics and programming using different programming languages and environments 
+            to deliver an amazing user experience.</p>
+        <p> From a foundation of creativity I can develop intuitive user experiences for the web.</p>  
+        <p> Currently completing a certificate in full stack web development at the University of Sydney, 
+            to further advance my skills in developing responsive and accessible web designs using: 
+            <ul class="tags-list">
+              <li class="tag">JavaScript</li>
+              <li class="tag">CSS</li>
+              <li class="tag">HTML</li>
+              <li class="tag">Node.js</li>
+              <li class="tag">Express.js</li>
+              <li class="tag">Sequelize</li>
+              <li class="tag">SQL</li>
+              <li class="tag">API's</li>
+              <li class="tag">React.js</li>
+              <li class="tag">Python</li>
+              <li class="tag">C</li>
+            </ul>
+          </p>
+        <p> I work well in agile development teams and als can deliver effectively from a well articulated brief or 
+            from a couple of adjectives.</p>
+          
+        <h2 id="i-m-also">enjoys…</h2>
+  
+        <ul>
+          <li>Powerlifting and rockclimbing - when I can.</li>
+          <li>Biohacking to optimise life.</li>
+          <li>Internet of Things using Arduino's.</li>
+        </ul>
+            
+        <!-- == Contacts footer ================================================================================================== -->
+
+        <section class="social__container">
+          <address class="social-network" itemscope itemtype="http://schema.org/LocalBusiness"> 
+              <a class = "contact-links" href="tel:+61448488884">
+                <div class="contact-icons icon-mobile-phone"></div>
+              </a>
+
+            <a  class = "contact-links" href="mailto:hi@watsonised.com?subject=Sending%20you%20this%20email%20from%20your%20website&body=Hi%20Mark,%20I'm%20emailing%20you%20from%20your%20website." 
+                aria-label="send me an email by selecting this icon">
+              <div class="contact-icons icon-SVG_Envelope"></div>
+            </a>
+                
+            <a class = "contact-links" href="https://www.linkedin.com/in/mark-watsonised/" target="_blank" aria-label="have a look at my LinkedIn message and contact me by selecting this icon">
+              <div class="contact-icons icon-SVG_Linkedin"></div>
+            </a>
+              
+            <a  class = "contact-links" href="https://wa.me/61448488884?text=Hi%20Mark,%0DI%20found%20you%20via%20your%20website%20and%20was%20wondering%0D" 
+                target="_blank" aria-label="send me a whatsapp message by selecting this icon">
+              <div class="contact-icons icon-SVG_Whatsapp"></div>
+            </a>  <!--https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat-->
+
+            <a class = "contact-links" href="https://t.me/watsonised" target="_blank" aria-label="send me a Telegram message by selecting this icon">
+              <div class="contact-icons icon-SVG_PaperPlane"></div>
+            </a>
+
+            <a class = "contact-links" href="https://github.com/Mark33Mark" target="_blank" aria-label="have a look at my Github repository by selecting this icon">
+              <div class="contact-icons icon-SVG_Github"></div>
+            </a> 
+          </address>
+        </section>
+      </main>
+    </div>
+    
+    <script type="text/javascript" src="./js/quotes_data.js"></script>
+    <script type="text/javascript" src="./js/main.js?ver=1.1"></script>
+  </body>
+</html>
+
+
+
+
