@@ -1,4 +1,4 @@
-![Mark Watson](./img/JPG_portfolio_banner_2245x368.jpg)
+![Mark Watson](./img/JPG_updated_geometric-banner-template-background-vector.jpg)
 
 # USYD-FSF Week 16 Project
 
@@ -52,20 +52,21 @@
 
 ### 2. Features  
 
-Client requested features as implemented:  
+Updates as implemented:  
 
-* updated portfolio webpage with links to my GitHub and LinkedIn profiles.
-* my webpage has a link for users to download a pdf version of my resume.
-* my webpage showcases at least 3 examples from my bootcamp student work.  Each example includes a project title, link to deployed version, link to the GitHub repository and a screenshot of the application.
-* the webpage has a polished and mobile-responsive user interface.
-* the webpage is designed as 'mobile-first', has a color palette that doesn't use default CSS framwork's colours and has a styled expression;
-* the webpage fonts and colours selected are not to cause eye strain.
+* CSS, HTML and JavaScript tidied up where needed.  Of mention I removed b_ suffix from the CSS.
+* Updated resume saved in the /doc folder of the application.
+* added another 2 examples from my bootcamp student work so the website now has 6 examples of my work.  Each example includes a project title, link to deployed version, link to the GitHub repository and a screenshot of the application.
+* Reworked my picture so that my head follows the mouse as you'd expect.  I didn't have time to get it right when I did this assignment in week 8.  Now works better.
+* Replaced the night / day button with a slider switch.  I like this more and consider it more contemporary than the awkward button I had before.
+* the webpage is designed as 'mobile-first', has a color palette that doesn't use default CSS framwork's colours and has a styled expression.
+* the webpage fonts and colours selected do not cause eye strain, although for this update I did do some resizing, including changing margins and padding to improve the UX.
 * my GitHub page has a profile picture or avatar, biography, email address, link to deployed my deployed portfolio page and at least 2 pinned repositories.
 * all my pinned projects include a README file.
 * all pinned projects have a commit history.
 * my downloadable resume has a heading with my name, phone number, professional email address, links to LinkedIn, portfolio and GitHub.
 * my resume includes a technical skills section, with all programming languages and technologies listed.
-* my resume has 3 of my strongest projects/homework assignments with a brief description, programming languages used, and URL.
+* my resume has at least 3 of my strongest projects/homework assignments with a brief description, programming languages used, and URL.
 * My LinkedIn Profile is updated with a strong bio statement, a professional photo, and links to your Github and portfolio.
 
 ---
@@ -126,43 +127,24 @@ No specific credits for this updated project apart from again referencing W3-Sch
  All actions not checked are still to be completed:  
 
 [x]  Updated portfolio webpage with links to my GitHub and LinkedIn profiles.  
-
 [x]  Webpage has a link for users to download a pdf version of my resume.  
-
-[x]  Webpage showcases at least 2 examples from my bootcamp student work.  Each example includes a project title, link to deployed version, link to the GitHub repository and a screenshot of the application.  
-
+[x]  Webpage showcases at least 3 examples from my bootcamp student work.  Each example includes a project title, link to deployed version, link to the GitHub repository and a screenshot of the application.  
 [x]  Webpage has a polished and mobile-responsive user interface. [URL: hire.watsonised.com](https://hire.watsonised.com)  
-
 [x]  Webpage is designed as 'mobile-first', has a color palette that doesn't use default CSS framwork's colours and has a styled expression;  
-
 [x]  Webpage fonts and colours selected are not to cause eye strain.  
-
-[x]  GitHub page has a profile picture or avatar, biography, email address, link to deployed my deployed portfolio page and at least 2 pinned repositories.  
-
+[x]  GitHub page has a profile picture or avatar, biography, email address, link to deployed my deployed portfolio page and at least 3 pinned repositories.  
 [x]  All my pinned projects include a README file.  
-
 [x]  All pinned projects have a commit history.  
-
 [x]  Resume is downloadable and has a heading with my name, phone number, professional email address, links to LinkedIn, portfolio and GitHub.  
-
 [x]  Resume includes a technical skills section, with all programming languages and technologies listed.  
-
 [x]  Resume has 3 of my strongest projects/homework assignments with a brief description, programming languages used, and URL.  
-
 [x]  LinkedIn Profile is updated with a strong bio statement, a professional photo, and links to your Github and portfolio.  
-
 [x]  Application loads with no errors.  
-
 [x]  Github repository contains application code [Github location](https://github.com/Mark33Mark/FSF-dev-portfolio-2)  
-
 [x]  Repository has a unique name; follows best practice for file structure; and naming conventions.  
-
 [x]  The application resembles the mock-up functionality provided in the assigment instructions.  
-
 [x]  Repsository follows best practices for class/id naming conventions, indentation, quality comments, etc.  
-
 [x]  Repository contains multiple descriptive commit messages.  
-
 [x]  Repository contains a README file with descriptio, screenshot and link to deployed application.  
 
 ---
